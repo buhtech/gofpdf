@@ -32,9 +32,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/phpdave11/gofpdf"
-	"github.com/phpdave11/gofpdf/internal/example"
-	"github.com/phpdave11/gofpdf/internal/files"
+	"github.com/buhtech/gofpdf"
+	"github.com/buhtech/gofpdf/internal/example"
+	"github.com/buhtech/gofpdf/internal/files"
 )
 
 func init() {
