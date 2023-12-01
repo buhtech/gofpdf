@@ -2,6 +2,8 @@ github.com/boombuler/barcode v1.0.0 h1:s1TvRnXwL2xJRaccrdcBQMZxq6X7DvsMogtmJeHDd
 github.com/boombuler/barcode v1.0.0/go.mod h1:paBWMcWSl3LHKBqUq+rly7CNSldXjb2rDl3JlRe0mD8=
 github.com/buhtech/gofpdi v0.0.0-20231201140952-2c9b2ef34f84 h1:AoDd+aaFik1eVgZEiWt/aObu+XQ/dY80po+2l0pUHZQ=
 github.com/buhtech/gofpdi v0.0.0-20231201140952-2c9b2ef34f84/go.mod h1:FWAXaB5EtlUmk/4oqIEEdEJ1ENRiToM3zebmZTRbwE0=
+github.com/buhtech/gofpdi v0.0.0-20231201151151-84f69ea1f992 h1:Rkm5aWiz1TiDKz+Q8Zz0U1qgB6Gn4cUvfDzCqFf9J+4=
+github.com/buhtech/gofpdi v0.0.0-20231201151151-84f69ea1f992/go.mod h1:FWAXaB5EtlUmk/4oqIEEdEJ1ENRiToM3zebmZTRbwE0=
 github.com/davecgh/go-spew v1.1.0 h1:ZDRjVQ15GmhC3fiQ8ni8+OwkZQO4DARzQgrnXU1Liz8=
 github.com/davecgh/go-spew v1.1.0/go.mod h1:J7Y8YcW2NihsgmVo/mv3lAwl/skON4iLHjSsI+c5H38=
 github.com/jung-kurt/gofpdf v1.0.0/go.mod h1:7Id9E/uU8ce6rXgefFLlgrJj/GYY22cpxn+r32jIOes=
