@@ -20,7 +20,7 @@ package barcode
 import (
 	"bytes"
 	"errors"
-	"image/png"
+	"image/jpeg"
 	"io"
 	"strconv"
 	"sync"
@@ -103,7 +103,7 @@ func printBarcode(pdf barcodePdf, code string, x, y float64, w, h *float64, flow
 		scaleToHeightF = *h
 	}
 
-	pdf.Image(bname, x, y, scaleToWidthF, scaleToHeightF, flow, "png", 0, "")
+	pdf.Image(bname, x, y, scaleToWidthF, scaleToHeightF, flow, "jpg", 0, "")
 
 }
 
@@ -272,14 +272,14 @@ func barcodeKey(bcode barcode.Barcode) string {
 // add the barcode to the page.
 func registerScaledBarcode(pdf barcodePdf, code string, bcode barcode.Barcode) error {
 	buf := new(bytes.Buffer)
-	err := png.Encode(buf, bcode)
+	err := jpeg.Encode(buf, bcode, nil)
 
 	if err != nil {
 		return err
 	}
 
 	reader := bytes.NewReader(buf.Bytes())
-	pdf.RegisterImageReader(code, "png", reader)
+	pdf.RegisterImageReader(code, "jpg", reader)
 
 	return nil
 }
